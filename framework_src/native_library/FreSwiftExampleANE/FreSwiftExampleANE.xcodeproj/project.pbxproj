@@ -157,8 +157,8 @@
 		90E26DA421039B74003E0B9B /* FreSwift_oc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreSwift_oc.h; sourceTree = "<group>"; };
 		90E26DAA21039BA3003E0B9B /* FreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E26DC821039DE8003E0B9B /* FreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90E26DD121039E63003E0B9B /* Adobe AIR */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "Adobe AIR"; path = "../../../../../SDKs/AIRSDK_31/runtimes/air-captive/mac/Adobe AIR.framework/Versions/1.0/Adobe AIR"; sourceTree = "<group>"; };
-		90E26DD221039E69003E0B9B /* Adobe AIR_64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "Adobe AIR_64"; path = "../../../../../SDKs/AIRSDK_31/runtimes/air-captive/mac/Adobe AIR.framework/Versions/1.0/Adobe AIR_64"; sourceTree = "<group>"; };
+		90E26DD121039E63003E0B9B /* Adobe AIR */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "Adobe AIR"; path = "/Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac/Adobe AIR.framework/Versions/1.0/Adobe AIR"; sourceTree = "<group>"; };
+		90E26DD221039E69003E0B9B /* Adobe AIR_64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "Adobe AIR_64"; path = "/Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac/Adobe AIR.framework/Versions/1.0/Adobe AIR_64"; sourceTree = "<group>"; };
 		90E26DEB2103A1D9003E0B9B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		90E26DF02103A257003E0B9B /* FreSwiftExampleANE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreSwiftExampleANE.m; sourceTree = "<group>"; };
 		90E26DF12103A257003E0B9B /* SwiftController+FreSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftController+FreSwift.swift"; sourceTree = "<group>"; };
@@ -1028,7 +1028,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = "$(SRCROOT)/FreSwiftExampleANE/Misc/Info.plist";
@@ -1038,7 +1038,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -1069,7 +1069,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = "$(SRCROOT)/FreSwiftExampleANE/Misc/Info.plist";
@@ -1079,7 +1079,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -1255,7 +1255,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = "$(SRCROOT)/FreSwift/Info.plist";
@@ -1266,7 +1266,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MARKETING_VERSION = 4.5.0;
 				OTHER_LDFLAGS = (
@@ -1297,7 +1297,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = "$(SRCROOT)/FreSwift/Info.plist";
@@ -1308,7 +1308,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air/mac;
+				LIBRARY_SEARCH_PATHS = /Users/admin/Apps/SDK_Air330/runtimes/air-captive/mac;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MARKETING_VERSION = 4.5.0;
 				OTHER_LDFLAGS = (
